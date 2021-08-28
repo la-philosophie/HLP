@@ -19,7 +19,7 @@ Lundi | Mardi | Mercredi | Jeudi | Vendredi
 - | - | - | - | -
  |  | HLP1ère 8h00-10h05 |  | 
 HLP Term 10h20-11h25 |  |  |  | 
- |  |  |  | HLPTerm 14h25-16h30
+ |  |  |  | HLPTerm 14h25-16h30 
 
 
 
