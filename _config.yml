@@ -1,0 +1,45 @@
+permalink:           pretty
+
+# Setup
+title:               'La HLP'
+tagline:             'Cours de HLP pour première et terminale'
+url:                 https://ebetica.github.io/jekyllbook/
+baseurl:             '/'
+homepage_title:      Accueil
+default_lang:        'fr'
+
+# About/contact
+github:
+  repo:              https://github.com/la-philosophie/HLP
+
+# Custom vars
+version:             1.0.0
+
+src:                 "."
+default_theme:       "ayu"
+
+# To use hljs, disable the default highlighter
+# We also use a built-in math engine so gotta disable that too
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+  math_engine: null
+
+exclude:
+  - README.md
+
+# Chapter Configuration (up to a 2 level nested list)
+
+prologues:
+  - path: chapters/prologue.md
+    sections:
+      - path: chapters/prologue2.md
+chapters:
+  - path: chapters/01.md
+    sections:
+      - path: chapters/01-1.md
+      - path: chapters/01-2.md
+  - path: chapters/02.md
+epilogues:
+  - path: chapters/epilogue.md
+
