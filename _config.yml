@@ -3,7 +3,7 @@ permalink:           pretty
 # Setup
 title:               'La HLP'
 tagline:             'Cours de HLP pour première et terminale'
-url:                 https://ebetica.github.io/jekyllbook/
+url:                 https://la-philosophie.github.io/HLP/
 baseurl:             '/'
 homepage_title:      Accueil
 default_lang:        'fr'
