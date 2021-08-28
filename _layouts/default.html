@@ -267,16 +267,9 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <button id="lang-toggle" class="icon-button" type="button" title="Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false" aria-controls="lang-list">
-                            <i class="fa flag-placeholder lang-is-{{ thislang }}"></i>
+                            <i class="fa flag-placeholder lang-is-fr"></i>
                         </button>
                     </div>
-                    <ul id="theme-list" class="button-popup theme-popup" aria-label="Themes" role="menu">
-                        <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                        <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                        <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                        <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                        <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu (default)</button></li>
-                    </ul>
 
                     <ul id="lang-list" class="button-popup lang-popup" aria-label="Languages" role="menu">
                         {% assign pages = site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
