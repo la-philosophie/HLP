@@ -16,7 +16,7 @@ github:
 version:             1.0.0
 
 src:                 "."
-default_theme:       "ayu"
+default_theme:       "rust"
 
 # To use hljs, disable the default highlighter
 # We also use a built-in math engine so gotta disable that too
