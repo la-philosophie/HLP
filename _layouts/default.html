@@ -270,6 +270,8 @@
                             <i class="fa flag-placeholder lang-is-fr"></i>
                         </button>
                     </div>
+                    <ul id="theme-list" class="button-popup theme-popup" aria-label="Themes" role="menu">
+                    </ul>
 
                     <ul id="lang-list" class="button-popup lang-popup" aria-label="Languages" role="menu">
                         {% assign pages = site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
